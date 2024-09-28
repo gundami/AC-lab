@@ -75,8 +75,8 @@ Migration strategy and plan:
     4. Test and validate: Ensure that email sending and receiving are working properly.
 
 Hybrid approach for migration:
-For example, migrating a web application to PaaS while initially keeping the database on IaaS.
-These are steps:
+
+For example, migrating a web application to PaaS while initially keeping the database on IaaS. These are steps:
 
 1. Web application migration to PaaS:
    - Follow the steps for web application migration above.
