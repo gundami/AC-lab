@@ -35,146 +35,33 @@
 
 ## The differences between each of these services
 
-##### Computing services for scalable virtual machines:
-
-- **AWS EC2:** Provides multiple instance types, flexible pricing options (on-demand, reserved, bid instances), and deep integration with other AWS services.
-- **Azure Virtual Machine:** Offers a variety of VM sizes and types, tightly integrates with Microsoft products and services, and supports hybrid cloud capabilities.
-- **Google Cloud Compute Engine:** Known for customizing machine types, continuous use discounts, and cost savings with VM preemption.
-
-##### Object storage service:
-
-- **AWS S3:** Highly scalable, persistent, and secure object storage with multiple storage categories and lifecycle management capabilities.
-- **Azure Blob Storage:** Provides different access layers (hot, cold, archiving) that are tightly integrated with Azure services.
-- **Google Cloud Storage:** Provides unified object storage with multiple storage categories and automatic data lifecycle management.
-
-##### Managed relational database services:
-
-- **AWS RDS:** Supports multiple database engines with automatic backup and scaling options.
-- **Azure SQL Database:** Fully managed, with built-in high availability, scaling, and advanced security features.
-- **Google Cloud SQL:** Hosted MySQL, PostgreSQL, and SQL Server databases that provide automatic backup and scaling.
-
-##### Serverless computing services:
-
-- **AWS Lambda:** Event-driven, supports multiple programming languages, and integrates with many AWS services.
-- **Azure Functions:** Event-driven, multi-language support and tight integration with Azure services and tools.
-- **Google Cloud Functions:** Event-driven, supports multiple languages and integrates with Google Cloud services.
-
-##### Virtual private Network Services:
-
-- **AWS VPC:** Allows you to create isolated networks with features such as subnets, routing tables, and gateways.
-- **Azure Virtual Network:** Provides network isolation, subnetting, and integration with on-premises networks.
-- **Google Virtual Private Cloud:** Global VPC, subnets can be cross-regional and tightly integrated with Google Cloud services.
-
-##### Content Delivery Network (CDN) services:
-
-- **AWS CloudFront:** A global CDN that integrates with other AWS services to support dynamic and static content.
-- **Azure CDN:** Offers multiple CDN providers that integrate with Azure services to distribute content.
-- **Google Cloud CDN:** A global CDN that integrates with Google Cloud services to support dynamic and static content.
-
-##### Managed NoSQL database services:
-
-- **AWS DynamoDB:** A fully managed, low-latency, and scalable NoSQL database that supports key-value and document data models.
-- **Azure Cosmos DB:** A globally distributed multi-model database with low latency and high availability.
-- **Google Cloud Firestore:** A hosted NoSQL document database with real-time synchronization and offline support.
-
-##### Block storage service:
-
-- **AWS EBS:** Provides persistent block storage for EC2 instances with multiple volume types with different performance requirements.
-- **Azure Disk Storage:** Provides managed disks with different performance layers that integrate with Azure virtual machines.
-- **Google Cloud Persistent Disk:** Provides persistent block storage for virtual machines, with SSD and HDD options.
-
-##### Managed container orchestration Service:
-
-- **AWS EKS:** Hosted Kubernetes service with deep integration with AWS services.
-- **Azure AKS:** A hosted Kubernetes service that integrates with Azure services and tools.
-- **Google Cloud GKE:** A hosted Kubernetes service that is tightly integrated with Google Cloud services and tools.
-
-##### User access and encryption key Management services:
-
-- **AWS IAM and KMS:** Provide fine-grained access control and encryption key management.
-- **Azure Active Directory and Key Vault:** provides identity management and key management services.
-- **Google Cloud IAM and Cloud KMS:** Provide access control and encryption key management.
-
-##### A platform for automated application deployment and scaling:
-
-- **AWS Elastic Beanstalk:** PaaS for deploying and scaling Web applications and services.
-- **Azure App Service:** PaaS for building, deploying, and extending Web applications and apis.
-- **Google Cloud App Engine:** PaaS for building and deploying scalable Web applications and services.
-
-##### Monitoring and logging services:
-
-- **AWS CloudWatch:** Provides monitoring and logging of AWS resources and applications.
-- **Azure Monitor:** Provides monitoring and logging of Azure resources and applications.
-- **Google Cloud Operations Suite:** Provides monitoring, logging, and diagnostics of Google Cloud resources and applications.
-
-##### Domain Name System (DNS) services:
-
-- **AWS Route 53:** A scalable DNS service that supports domain name registration and routing.
-- **Azure DNS:** Provides DNS hosting and management of Azure resources.
-- **Google Cloud DNS:** A scalable DNS service with low latency and high availability.
-
-##### Load balancing Services:
-
-- **AWS Elastic Load Balancing (ELB)** : Distributes incoming traffic to multiple targets for high availability.
-- **Azure Load Balancer**: Provides load balancing for Azure resources and applications.
-- **Google Cloud Load Balancing**: A global load balancing service that supports HTTP(S), TCP/SSL, and UDP traffic.
-
-##### Automatic expansion service:
-
-- **AWS Auto Scaling:** Automatically adjust the number of EC2 instances based on demand.
-- **Azure Virtual Machine Scale Set:** Automatically scale virtual machines on demand.
-- **Google Cloud Autoscaler:** Automatically scales virtual machine instances on demand.
-
-##### Message queue service:
-
-- **AWS SQS:** A fully managed message queuing service for decoupling applications.
-- **Azure Queue Storage:** Provides message queues for asynchronous communication between components.
-- **Google Cloud Pub/Sub:** A managed messaging service for event-driven systems.
-
-##### Real-time data streaming service:
-
-- **AWS Kinesis:** Collect, process, and analyze real-time data streams.
-- **Azure Event Hubs:** Ingest and process large amounts of event data.
-- **Google Cloud Dataflow:** real-time data processing and stream analytics service.
-
-##### Data Warehouse Services:
-
-- **AWS Redshift:** fully managed data warehouse for large-scale data analytics.
-- **Azure Synapse Analytics:** an integrated big data and data warehouse analytics service.
-- **Google Cloud BigQuery:** a fully managed data warehouse for large-scale data analytics.
-
-##### Workflow Automation Services:
-
-- **AWS Step Functions:** Orchestrate workflows and integrate with AWS services.
-- **Azure Logic Apps:** Automate workflows and integrate with Azure services.
-- **Google Cloud Workflows:** Orchestrate workflows and integrate with Google Cloud services.
-
-##### Data Integration Services:
-
-- **AWS Glue:** A managed ETL service for data integration and transformation.
-- **Azure Data Factory:** Data integration service for ETL and data movement.
-- **Google Cloud Data Fusion:** A managed data integration service for ETL and data movement.
-
-##### Data catalog and governance services:
-
-- **AWS Glue Data Catalog:** A centralized metadata repository for data asset management.
-- **Azure Purview:** Data governance and directory services for managing metadata.
-- **Google Cloud Data Catalog:** Metadata management service for data asset management.
-
-##### Machine Learning and AI Services:
-
-- **AWS SageMaker:** A managed service for building, training, and deploying machine learning models.
-- **Azure Machine Learning:** A managed service for building, training, and deploying machine learning models.
-- **Google Cloud Vertex AI:**  A managed machine learning platform that enables developers to build, deploy, and scale ML models efficiently using Google Cloud infrastructure.
-
-##### Infrastructure as a Code Service:
-
-- **AWS CloudFormation:** Infrastructure as a code service for configuring AWS resources.
-- **Azure ARM Templates:** Infrastructure as a code service for configuring Azure resources.
-- **Google Cloud Deployment Manager:** Infrastructure as a code service for configuring Google Cloud resources.
-
-##### CI/CD Services:
-
-- **AWS CodePipeline:** Continuous integration and delivery service for automating application deployment.
-- **Azure DevOps:** Continuous integration and delivery services to automate application deployment.
-- **Google Cloud Build:** Continuous integration and delivery service for automating application deployment.
+- **Compute services for scalable virtual machines:** AWS EC2 offers multiple instance types and flexible pricing options, including on-demand, reserved, and bid instances, and deep integration with other AWS services. Azure virtual machines are available in a variety of VM sizes and types and are tightly integrated with Microsoft products and hybrid cloud capabilities. Google Cloud Compute Engine is known for customizing machine types, continuous use discounts, and cost savings with VM preemption.
+- **Object Storage Service:** AWS S3 is highly scalable, durable, and secure, offering multiple storage categories and lifecycle management capabilities. Azure Blob storage offers different access layers (hot, cold, archiving) that are tightly integrated with Azure services. Google Cloud Storage provides unified object storage with multiple storage categories and automatic data lifecycle management.
+- **Managed relational Database Services:** AWS RDS supports a variety of database engines, providing automatic backup and scaling options. Azure SQL database is fully managed with built-in high availability, scaling, and advanced security features. Google Cloud SQL provides managed MySQL, PostgreSQL, and SQL Server databases with automatic backup and scaling capabilities.
+- **Serverless Computing Services:** AWS Lambda is event-driven, supports multiple programming languages, and integrates with many AWS services. Azure Functions is also event-driven, supports multiple languages, and is tightly integrated with Azure services and tools. Google Cloud Functions is event-driven, supports multiple languages, and integrates with Google Cloud services.
+- **Virtual Private Network Services:** AWS VPCS allow the creation of isolated networks with features such as subnets, routing tables, and gateways. Azure Virtual Networks provide network isolation, subnetting, and integration with on-premises networks. Google Cloud VPCS provide global VPCS, and subnets can be cross-regional and tightly integrated with Google Cloud services.
+- **Content Delivery Network (CDN) Services:** AWS CloudFront is a global CDN that integrates with other AWS services to support dynamic and static content. Azure CDN offers multiple CDN providers and integrates with Azure services to distribute content. The Google Cloud CDN is a global CDN that integrates with Google Cloud services to support dynamic and static content.
+- **Hosted NoSQL Database Service:** AWS DynamoDB is a fully managed, low-latency, and scalable NoSQL database that supports key-value and document data models. Azure Cosmos DB is a globally distributed multi-model database with low latency and high availability. Google Cloud Firestore is a hosted NoSQL document database with real-time synchronization and offline support.
+- **Block Storage Services:** AWS EBS provides persistent block storage for EC2 instances, with multiple volume types with different performance requirements. Azure Disk storage provides managed disks with different performance layers and integrates with Azure virtual machines. Google Cloud Persistent Disk provides persistent block storage with SSD and HDD options for virtual machines.
+- **Managed Container orchestration Service:** AWS EKS is a managed Kubernetes service that is deeply integrated with AWS services. Azure AKS is a hosted Kubernetes service that integrates with Azure services and tools. Google Cloud GKE is a hosted Kubernetes service that is tightly integrated with Google Cloud services and tools.
+- **User Access and encryption key Management services:** AWS IAM and KMS provide fine-grained access control and encryption key management. Azure Active Directory and Key Vault provide identity management and key management services. Google Cloud IAM and Cloud KMS provide access control and encryption key management.
+- **Platform for automated application deployment and scaling:** AWS Elastic Beanstalk is a PaaS for deploying and scaling Web applications and services. Azure App Service is a PaaS for building, deploying, and extending Web applications and apis. Google Cloud App Engine is a PaaS for building and deploying scalable Web applications and services.
+- **Monitoring and logging services:** AWS CloudWatch provides monitoring and logging of AWS resources and applications. Azure Monitor provides monitoring and logging of Azure resources and applications. Google Cloud Operations Suite provides monitoring, logging, and diagnostics of Google Cloud resources and applications.
+- **Domain Name System (DNS) service:** AWS Route 53 is a scalable DNS service that supports domain name registration and routing. Azure DNS provides DNS hosting and management of Azure resources. Google Cloud DNS is a scalable DNS service with low latency and high availability.
+- **Load Balancing Service:** AWS Elastic Load Balancing (ELB) distributes incoming traffic to multiple targets for high availability. Azure Load Balancer Provides load balancing for Azure resources and applications. Google Cloud Load Balancing is a global load balancing service that supports HTTP(S), TCP/SSL, and UDP traffic.
+- **Automatic Scaling services:** AWS Auto Scaling automatically adjusts the number of EC2 instances based on demand. Azure Virtual Machine Scale sets automatically scale virtual machines on demand. Google Cloud Autoscaler automatically scales virtual machine instances on demand.
+- **Message Queuing Service:** AWS SQS is a fully managed message queuing service used to decouple applications. Azure Queue Storage provides message queues for asynchronous communication between components. Google Cloud Pub/Sub is a managed messaging service for event-driven systems.
+- **Real-time Data Streaming Services:** AWS Kinesis collects, processes, and analyzes real-time data streams. Azure Event Hubs ingests and processes large amounts of event data. Google Cloud Dataflow is a real-time data processing and stream analytics service.
+- **Data Warehouse Services:** AWS Redshift is a fully managed data warehouse for large-scale data analysis. Azure Synapse Analytics is an integrated big data and data warehouse analytics service. Google Cloud BigQuery is a fully managed data warehouse for large-scale data analysis.
+- **Workflow Automation Services:** AWS Step Functions orchestrate workflows and integrate with AWS services. Azure Logic Apps automate workflows and integrate with Azure services. Google Cloud Workflows orchestrate workflows and integrate with Google Cloud services.
+- **Data Integration Services:** AWS Glue is a managed ETL service for data integration and transformation. Azure Data Factory is a data integration service for ETL and data movement. Google Cloud Data Fusion is a managed data integration service for ETL and data movement.
+- **Data Catalog and Governance Services:** The AWS Glue Data Catalog is a centralized metadata repository for data asset management. Azure Purview is a data governance and directory service for managing metadata. Google Cloud Data Catalog is a metadata management service for data asset management.
+- **Machine Learning and AI Services:** AWS SageMaker is a managed service for building, training, and deploying machine learning models. Azure Machine Learning is a managed service for building, training, and deploying machine learning models. Google Cloud AI Platform is a managed service for building, training, and deploying machine learning models.
+- **Infrastructure as a Code Service:** AWS CloudFormation is an infrastructure as a code service for configuring AWS resources. Azure ARM Templates are infrastructure-as-a-code services used to configure Azure resources. Google Cloud Deployment Manager is an infrastructure-as-a-code service for configuring Google Cloud resources.
+- **CI/CD Service:** AWS CodePipeline is a continuous integration and delivery service for automating application deployment. Azure DevOps is a continuous integration and delivery service for automating application deployment. Google Cloud Build is a continuous integration and delivery service for automating application deployment.
+- **Desktop as a Service (DaaS) :** AWS WorkSpaces is a hosted desktop as a service for deploying virtual desktops. Azure Virtual Desktop is a hosted desktop-as-a-service for deploying virtual desktops. Google Cloud Workstations is a hosted desktop-as-a-service for deploying virtual desktops.
+- **Backup and Disaster Recovery services:** AWS Backup is a centralized backup service for AWS resources. Azure Backup is a centralized backup service for Azure resources. Google Cloud Backup and DR Is a centralized backup and disaster recovery service for Google Cloud resources.
+- **Big Data Analytics Services:** AWS EMR is a managed Hadoop and Spark service for big data processing. Azure HDInsight is a managed Hadoop and Spark service for big data processing. Google Cloud Dataproc is a hosted Hadoop and Spark service for big data processing.
+- **File storage Service:** AWS EFS is a managed file storage service for sharing file systems. Azure Files is a managed file storage service for sharing file systems. Google Cloud Filestore is a managed file storage service for sharing file systems.
+- **Media processing and Streaming services:** AWS MediaConvert is used for transcoding, processing, and streaming media content. Azure Media Services is used for transcoding, processing, and streaming content. The Google Cloud Transcoder API is used for transcoding, processing, and streaming content.
+- **Real-time communication service:** AWS SNS is a real-time communication service for sending notifications, emails, and SMS messages. Azure Notification Hubs is a real-time communication service for sending notifications. Google Cloud Firebase Cloud Messaging (FCM) is a real-time communication service for sending notifications, emails, and text messages.
