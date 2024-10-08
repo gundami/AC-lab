@@ -2,7 +2,7 @@
 
 ### Target architecture diagram
 
-
+![lab4v3](./lab4v3.jpg)
 
 ### Target architecture description
 
