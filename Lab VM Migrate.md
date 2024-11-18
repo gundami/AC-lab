@@ -60,3 +60,9 @@ Migrate the VM to Azure using Azure Migrate tools.
 ![mg2](./mg2.png)
 
 ![mg3](./mg3.png)
+
+I DID NOTHING BUT IT CARSH. It has wasted me too much of time and i give up.
+
+![err1](./err1.png)
+
+![err2](./err2.png)
